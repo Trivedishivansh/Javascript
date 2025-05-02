@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="
+    console.log(`Cart quentity:${cartQuentity}`);
+        ">Show Quentity</button>
+    <button onclick="
+    cartQuentity = cartQuentity + 1;
+    console.log(cartQuentity);
+    ">Add To Cart</button>
+    <button onclick="
+    cartQuentity = cartQuentity + 1 * 2;
+    console.log(cartQuentity)
+    
+    ">+2</button>
+    <button onclick="
+    cartQuentity = cartQuentity + 1 * 3;
+    console.log(cartQuentity);
+    
+    ">+3</button>
+    <button onclick="
+    cartQuentity = cartQuentity * 0;
+    console.log(cartQuentity);
+    
+    ">Reset cart</button>
+
+   <script src="cart.js"></script>
+    
+</body>
+</html>
